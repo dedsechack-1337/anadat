@@ -35,7 +35,7 @@ def main():
     output_file = args.output_file
 
     df = pandas.read_csv(dataset_file)
-    ProfileReport(df,title=f"{dataset_file} Data Set Analyzation(Developed by Amit Roy)").to_file(output_file)
+    ProfileReport(df,title=f"{dataset_file} Data Set Analyzation (Developed by Amit Roy)").to_file(output_file)
 
 if __name__=="__main__":
     main()
