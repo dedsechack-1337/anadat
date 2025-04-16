@@ -24,6 +24,7 @@ banner = Fore.CYAN + r"""
                                                                          
                    🔍 ANA-DAT | DataSet Analyzer
             Developed 👽 by Amit Roy | HTML Report Generator
+                            V_1.0
 """ + Style.RESET_ALL
 def main():
     type_writer(banner,speed=0.01)
